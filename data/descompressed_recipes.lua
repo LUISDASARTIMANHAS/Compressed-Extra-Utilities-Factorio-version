@@ -1,3 +1,4 @@
+data:extend({
 {
     type = "recipe",
     name = "silicon-press-recipe",
@@ -12,3 +13,5 @@
     result_count = 2,
     result = "silicon-press",
 },
+
+})
