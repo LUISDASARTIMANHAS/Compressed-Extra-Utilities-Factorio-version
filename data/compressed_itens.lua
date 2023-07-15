@@ -6,7 +6,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-madeira",
-        icon = path_main.. "/graficos/items/compressed_madeira.png",
+        icon = path_main.. "/graficos/items/compressed_Unknown.png",
         icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-madeira]",
@@ -51,7 +51,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-minerio-de-uranio",
-        icon = path_main.. "/graficos/items/compressed_uranium_ore.png",
+        icon = path_main.. "/graficos/items/compressed_Unknown.png",
         icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-minerio-de-uranio]",
@@ -88,7 +88,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-aco",
-        icon = path_main.. "/graficos/items/compresed_aco.png",
+        icon = path_main.. "/graficos/items/compressed_aco.png",
         icon_size = 128,
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-aco]",
@@ -97,7 +97,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-plastico",
-        icon = path_main.. "/graficos/items/compressed_plastico.png",
+        icon = path_main.. "/graficos/items/compressed_Unknown.png",
         icon_size = 128,
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-plastico]",
