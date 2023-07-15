@@ -97,7 +97,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-plastico",
-        icon = path_main.. "/graficos/items/compressed_Unknown.png",
+        icon = path_main.. "/graficos/items/compressed_plastico.png",
         icon_size = 128,
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-plastico]",
