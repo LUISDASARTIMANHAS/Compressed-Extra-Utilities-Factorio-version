@@ -4,6 +4,7 @@ data:extend({
     -- category = "basic-crafting" maquinas de montagem tier 1
     -- category = "crafting" feito a mão
     -- category = "smelting" feito em fornalhas
+    -- category = "centrifuge" feito na centrifuge
 
     {
     type = "recipe",
@@ -55,18 +56,6 @@ data:extend({
     },
     {
     type = "recipe",
-    name = "compressed-minerio-de-ferro-recipe",
-    enabled = true,
-    category = "advanced-crafting",
-    always_show_madein = true,
-    ingredients = {
-    {"iron-ore",9}
-    },
-    energy_required = 30,
-    result = "compressed-minerio-de-ferro",
-    },
-    {
-    type = "recipe",
     name = "compressed-minerio-de-cobre-recipe",
     enabled = true,
     category = "advanced-crafting",
@@ -81,7 +70,7 @@ data:extend({
         type = "recipe",
         name = "compressed-minerio-de-uranio-recipe",
         enabled = true,
-        category = "advanced-crafting",
+        category = "centrifuge",
         always_show_madein = true,
         ingredients = {
         {"uranium-ore",9}
