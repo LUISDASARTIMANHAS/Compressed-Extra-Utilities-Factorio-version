@@ -4,7 +4,7 @@ data:extend({
     -- category = "basic-crafting" maquinas de montagem tier 1
     -- category = "crafting" feito a mão
     -- category = "smelting" feito em fornalhas
-    -- category = "centrifuge" feito na centrifuge
+    -- category = "centrifuging" feito na centrifuge
 
     {
     type = "recipe",
@@ -70,7 +70,7 @@ data:extend({
         type = "recipe",
         name = "compressed-minerio-de-uranio-recipe",
         enabled = true,
-        category = "centrifuge",
+        category = "centrifuging",
         always_show_madein = true,
         ingredients = {
         {"uranium-ore",9}
