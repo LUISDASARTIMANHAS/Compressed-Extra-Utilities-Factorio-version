@@ -6,7 +6,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-madeira",
-        icon = path_main.. "/graficos/items/compressed_Unknown.png",
+        icon = path_main.. "/graficos/items/compressed_madeira.png",
         icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-madeira]",
