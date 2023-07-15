@@ -1,6 +1,6 @@
 -- recursos e itens
-require("data/recursos_brutos.lua")
-require("data/recursos.lua")
+require("data/compressed.lua")
+
 
 -- pesquisas
 require("data/pesquisa/compressed_technology.lua")

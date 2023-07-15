@@ -1,4 +1,4 @@
-local path_main = "__Applied-Energistics-2__/"
+local path_main = "_Compressed_Extra_Utilities__/"
 
 data:extend({
 -- definindo o item
