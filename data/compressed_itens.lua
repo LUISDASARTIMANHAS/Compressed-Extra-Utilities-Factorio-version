@@ -1,4 +1,4 @@
-local path_main = "graficos/itens/"
+local path_main = "__Compressed_Extra_Utilities__"
 
 data:extend({
 
@@ -6,7 +6,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-madeira",
-        icon = path_main.. "compressed_madeira.png",
+        icon = path_main.. "graficos/itens/compressed_madeira.png",
         icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-madeira]",
@@ -15,7 +15,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-carvao",
-        icon = path_main.. "compressed_carvao.png",
+        icon = path_main.. "graficos/itens/compressed_carvao.png",
         icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-carvao]",
@@ -24,7 +24,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-pedra",
-        icon = path_main.. "compressed_pedra.png",
+        icon = path_main.. "graficos/itens/compressed_pedra.png",
         icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-pedra]",
@@ -33,7 +33,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-minerio-de-ferro",
-        icon = path_main.. "compressed_iron_ore.png",
+        icon = path_main.. "graficos/itens/compressed_iron_ore.png",
         icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-minerio-de-ferro]",
@@ -42,7 +42,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-minerio-de-cobre",
-        icon = path_main.. "compressed_copper_ore.png",
+        icon = path_main.. "graficos/itens/compressed_copper_ore.png",
         icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-minerio-de-cobre]",
@@ -51,7 +51,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-minerio-de-uranio",
-        icon = path_main.. "compressed_uranium_ore.png",
+        icon = path_main.. "graficos/itens/compressed_uranium_ore.png",
         icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-minerio-de-uranio]",
@@ -61,7 +61,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-ferro",
-        icon = path_main.. "compressed_ferro.png",
+        icon = path_main.. "graficos/itens/compressed_ferro.png",
         icon_size = 128,
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-ferro]",
@@ -70,7 +70,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-cobre",
-        icon = path_main.. "compressed_cobre.png",
+        icon = path_main.. "graficos/itens/compressed_cobre.png",
         icon_size = 128,
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-cobre]",
@@ -79,7 +79,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-combustivel-solido",
-        icon = path_main.. "compressed_combustivel_solido.png",
+        icon = path_main.. "graficos/itens/compressed_combustivel_solido.png",
         icon_size = 128,
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-combustivel-solido]",
@@ -88,7 +88,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-aco",
-        icon = path_main.. "compressed_aco.png",
+        icon = path_main.. "graficos/itens/compressed_aco.png",
         icon_size = 128,
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-aco]",
@@ -97,7 +97,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-plastico",
-        icon = path_main.. "compressed_plastico.png",
+        icon = path_main.. "graficos/itens/compressed_plastico.png",
         icon_size = 128,
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-plastico]",
@@ -106,7 +106,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-enxofre",
-        icon = path_main.. "compressed_enxofre.png",
+        icon = path_main.. "graficos/itens/compressed_enxofre.png",
         icon_size = 128,
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-enxofre]",
@@ -115,7 +115,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-bateria",
-        icon = path_main.. "compressed_bateria.png",
+        icon = path_main.. "graficos/itens/compressed_bateria.png",
         icon_size = 128,
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-bateria]",
