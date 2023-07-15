@@ -1,5 +1,6 @@
-# Applied-Energistics-2-Factorio-version
-Applied Energistics 2
+# Compressed Extra Utilities
+O mod Extra Utilities adiciona vários blocos e itens utilitários de propósitos aleatórios ao jogo.
+
 
 ## instruções
 Depois de baixar o arquivo renomeie ele para
