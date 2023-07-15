@@ -1,6 +1,6 @@
 data:extend(
 {
--------------------------------------------------------------------------- AE2-category
+-------------------------------------------------------------------------- compressed-category
   {
     type = "item-group",
     -- nome da categoria
@@ -12,43 +12,37 @@ data:extend(
   },
   {
     type = "item-subgroup",
-    -- nome usado para definir o grupo dos itens
+    -- nome usado para definir o grupo ou subgrupo dos itens
     name = "auto-craft",
     -- indexando o grupo a categoria
-    group = "AE2-category",
-    -- ordem de A a Z e de cima para baixo para organização dos grupos
-    order = "AE2-auto-craft"
+    group = "compressed-category",
+    -- ordem de A a Z e de cima para baixo para organização dos grupos, usado para indexar os itens ao groupo
+    order = "compressed-auto-craft"
   },
   {
     type = "item-subgroup",
-    name = "component",
-    group = "AE2-category",
-    order = "AE2-component"
+    name = "recursos",
+    group = "compressed-category",
+    order = "compressed-raw"
   },
   {
     type = "item-subgroup",
-    name = "data-terminal",
-    group = "AE2-category",
-    order = "AE2-data-terminal"
+    name = "recursos-processados",
+    group = "compressed-category",
+    order = "compressed-raw-processados"
   },
   {
     type = "item-subgroup",
-    name = "processing",
-    group = "AE2-category",
-    order = "AE2-processing"
+    name = "itens-processados",
+    group = "compressed-category",
+    order = "compressed-itens"
   },
   {
     type = "item-subgroup",
-    name = "storage-ME",
-    group = "AE2-category",
-    order = "AE2-storage-ME"
-  },
-  {
-    type = "item-subgroup",
-    name = "resources-generated",
-    group = "AE2-category",
-    order = "AE2-resources-generated"
+    name = "descompactados",
+    group = "compressed-category",
+    order = "compressed-descompressed"
   }
 }
 )
--------------------------------------------------------------------------- AE2-category
+-------------------------------------------------------------------------- compressed-category
