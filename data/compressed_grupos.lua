@@ -6,7 +6,7 @@ data:extend(
     -- nome da categoria
     name = "compressed-category",
     order = "e",
-    icon = "_Compressed_Extra_Utilities_/graficos/icon.png",
+    icon = "graficos/icon-grupos.png",
     icon_size = 126,
     icon_mipmaps = 2
   },
