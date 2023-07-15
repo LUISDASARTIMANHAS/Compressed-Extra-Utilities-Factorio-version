@@ -1,4 +1,10 @@
 data:extend({
+
+    -- category = "advanced-crafting" maquinas de montagem tier 2 e 3
+    -- category = "basic-crafting" maquinas de montagem tier 1
+    -- category = "crafting" feito a mão
+    -- category = "smelting" feito em fornalhas
+
 {
     type = "recipe",
     name = "silicon-press-recipe",
