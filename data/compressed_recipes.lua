@@ -5,6 +5,7 @@ data:extend({
     -- category = "crafting" feito a mão
     -- category = "smelting" feito em fornalhas
     -- category = "centrifuge" feito na centrifuge
+    -- category = "chemistry" feito na planta química
 
     {
     type = "recipe",
@@ -70,7 +71,7 @@ data:extend({
     type = "recipe",
     name = "compressed-enxofre-recipe",
     enabled = true,
-    category = "centrifuge",
+    category = "chemistry",
     always_show_madein = true,
     ingredients = {
     {"sulfur",9}
@@ -82,7 +83,7 @@ data:extend({
     type = "recipe",
     name = "compressed-bateria-recipe",
     enabled = true,
-    category = "centrifuge",
+    category = "chemistry",
     always_show_madein = true,
     ingredients = {
     {"battery",9}
