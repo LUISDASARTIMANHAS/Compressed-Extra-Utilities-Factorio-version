@@ -11,6 +11,8 @@ data:extend({
         subgroup = "recursos",
         order = "compressed-raw[compressed-madeira]",
         stack_size = 64,
+        fuel_value = "18MJ",
+        fuel_category = "chemical"
     },
     {
         type = "item",
@@ -20,6 +22,8 @@ data:extend({
         subgroup = "recursos",
         order = "compressed-raw[compressed-carvao]",
         stack_size = 64,
+        fuel_value = "36MJ",
+        fuel_category = "chemical"
     },
     {
         type = "item",
@@ -84,6 +88,10 @@ data:extend({
         subgroup = "recursos-processados",
         order = "compressed-raw[compressed-combustivel-solido]",
         stack_size = 64,
+        fuel_top_speed_multiplier = 9.45,
+        fuel_acceleration_multiplier = 10.8,
+        fuel_value = "108MJ",
+        fuel_category = "chemical"
     },
     {
         type = "item",
