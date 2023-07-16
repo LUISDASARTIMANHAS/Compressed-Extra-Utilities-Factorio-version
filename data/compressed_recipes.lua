@@ -16,7 +16,7 @@ data:extend({
     ingredients = {
     {"iron-plate",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-ferro",
     },
     {
@@ -28,7 +28,7 @@ data:extend({
     ingredients = {
     {"copper-plate",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-cobre",
     },
     {
@@ -40,7 +40,7 @@ data:extend({
     ingredients = {
     {"solid-fuel",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-combustivel-solido",
     },
     {
@@ -52,7 +52,7 @@ data:extend({
     ingredients = {
     {"steel-plate",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-aco",
     },
     {
@@ -64,7 +64,7 @@ data:extend({
     ingredients = {
     {"plastic-bar",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-plastico",
     },
     {
@@ -76,7 +76,7 @@ data:extend({
     ingredients = {
     {"sulfur",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-enxofre",
     },
     {
@@ -88,7 +88,7 @@ data:extend({
     ingredients = {
     {"battery",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-bateria",
     },
 })
