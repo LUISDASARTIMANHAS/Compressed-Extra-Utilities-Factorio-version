@@ -15,7 +15,7 @@ data:extend({
     ingredients = {
     {"wood",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-madeira",
     },
     {
@@ -27,7 +27,7 @@ data:extend({
     ingredients = {
     {"coal",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-carvao",
     },
     {
@@ -39,7 +39,7 @@ data:extend({
     ingredients = {
     {"stone",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-pedra",
     },
     {
@@ -51,7 +51,7 @@ data:extend({
     ingredients = {
     {"iron-ore",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-minerio-de-ferro",
     },
     {
@@ -63,7 +63,7 @@ data:extend({
     ingredients = {
     {"copper-ore",9}
     },
-    energy_required = 30,
+    energy_required = 10,
     result = "compressed-minerio-de-cobre",
     },
     {
@@ -75,7 +75,7 @@ data:extend({
         ingredients = {
         {"uranium-ore",9}
         },
-        energy_required = 30,
+        energy_required = 10,
         result = "compressed-minerio-de-uranio",
         },
 })
