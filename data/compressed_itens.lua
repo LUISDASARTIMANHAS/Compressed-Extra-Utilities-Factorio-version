@@ -52,7 +52,7 @@ data:extend({
         type = "item",
         name = "compressed-minerio-de-uranio",
         icon = path_main.. "/graficos/items/compressed_Unknown.png",
-        icon_size = 128,b 
+        icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-minerio-de-uranio]",
         stack_size = 64,
