@@ -129,4 +129,15 @@ data:extend({
         order = "compressed-raw[compressed-bateria]",
         stack_size = 64,
     },
+    {
+        type = "item",
+        name = "caminhao-de-carga",
+        icon = "__MeuModCaminhao__/graphics/icon.png",  -- Ícone do caminhão de carga
+        icon_size = 32,
+        subgroup = "transport",
+        order = "b[personal-transport]-c[caminhao-de-carga]",
+        place_result = "caminhao-de-carga",
+        stack_size = 1
+      }
 })
+
