@@ -1,5 +1,5 @@
 -- Importa a função create_coordinates_gui do arquivo gui_coordenadas.lua
-local gui_coordenadas = require("gui_coordenadas")
+local gui_coordenadas = require("control/gui_cordenaddas.lua")
 
 -- Evento chamado quando o jogador entra no jogo
 script.on_event(defines.events.on_player_joined_game, function(event)
