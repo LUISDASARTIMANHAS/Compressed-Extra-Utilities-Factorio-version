@@ -131,13 +131,67 @@ data:extend({
     },
     {
         type = "item",
-        name = "caminhao-de-carga",
-        icon = "__MeuModCaminhao__/graphics/icon.png",  -- Ícone do caminhão de carga
-        icon_size = 32,
-        subgroup = "transport",
-        order = "b[personal-transport]-c[caminhao-de-carga]",
-        place_result = "caminhao-de-carga",
-        stack_size = 1
-      }
+        name = "2reais",
+        icon = path_main.. "/graficos/items/2reais.png",
+        icon_size = 128,
+        subgroup = "recursos-processados",
+        order = "compressed-raw[2reais]",
+        stack_size = 1000,
+    },
+    {
+        type = "item",
+        name = "5reais",
+        icon = path_main.. "/graficos/items/5reais.png",
+        icon_size = 128,
+        subgroup = "recursos-processados",
+        order = "compressed-raw[5eais]",
+        stack_size = 400,
+    },
+    {
+        type = "item",
+        name = "10reais",
+        icon = path_main.. "/graficos/items/10reais.png",
+        icon_size = 128,
+        subgroup = "recursos-processados",
+        order = "compressed-raw[10reais]",
+        stack_size = 200,
+    },
+    {
+        type = "item",
+        name = "50reais",
+        icon = path_main.. "/graficos/items/50reais.png",
+        icon_size = 128,
+        subgroup = "recursos-processados",
+        order = "compressed-raw[50reais]",
+        stack_size = 40,
+    },
+    {
+        type = "item",
+        name = "100reais",
+        icon = path_main.. "/graficos/items/100reais.png",
+        icon_size = 128,
+        subgroup = "recursos-processados",
+        order = "compressed-raw[100reais]",
+        stack_size = 20,
+    },
+    {
+        type = "item",
+        name = "200reais",
+        icon = path_main.. "/graficos/items/200reais.png",
+        icon_size = 128,
+        subgroup = "recursos-processados",
+        order = "compressed-raw[200reais]",
+        stack_size = 10,
+    },
+    -- {
+    --     type = "item",
+    --     name = "caminhao-de-carga",
+    --     icon = path_main.. "/graficos/Blocos/caminhao.png",  -- Ícone do caminhão de carga
+    --     icon_size = 128,
+    --     subgroup = "transport",
+    --     order = "b[personal-transport]-c[caminhao-de-carga]",
+    --     place_result = "caminhao-de-carga",
+    --     stack_size = 1
+    --   }
 })
 
