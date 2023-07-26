@@ -91,20 +91,16 @@ data:extend({
     energy_required = 10,
     result = "compressed-bateria",
     },
-})
-
--- Receitas de construção do caminhão de carga
-data:extend({
-    {
-        type = "recipe",
-        name = "caminhao-de-carga",
-        enabled = true,
-        ingredients =
-        {
-            { "iron-plate",  20 },
-            { "engine-unit", 8 },
-            { "steel-plate", 5 }
-        },
-        result = "caminhao-de-carga"
-    }
+    -- {
+    --     type = "recipe",
+    --     name = "caminhao-de-carga",
+    --     enabled = true,
+    --     ingredients =
+    --     {
+    --         { "iron-plate",  20 },
+    --         { "engine-unit", 8 },
+    --         { "steel-plate", 5 }
+    --     },
+    --     result = "caminhao-de-carga"
+    -- }
 })
