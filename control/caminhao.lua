@@ -141,7 +141,7 @@ data:extend({
             layers = {
                 {
                     frame_count = 1,
-                    filename =  {
+                    filename = {
                         {
                             filename = "__base__/graphics/entity/car/car-1.png",
                             width_in_frames = 2,
