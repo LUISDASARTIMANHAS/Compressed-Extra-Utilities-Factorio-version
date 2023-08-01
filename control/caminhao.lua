@@ -81,24 +81,6 @@ data:extend({
                     shift = { 0, -0.1875 },
                     animation_speed = 8,
                     max_advance = 0.2,
-                    stripes =
-                    {
-                        {
-                            filename = "__base__/graphics/entity/car/car-1.png",
-                            width_in_frames = 2,
-                            height_in_frames = 22,
-                        },
-                        {
-                            filename = "__base__/graphics/entity/car/car-2.png",
-                            width_in_frames = 2,
-                            height_in_frames = 22,
-                        },
-                        {
-                            filename = "__base__/graphics/entity/car/car-3.png",
-                            width_in_frames = 2,
-                            height_in_frames = 20,
-                        }
-                    },
                     hr_version =
                     {
                         priority = "low",
@@ -109,24 +91,6 @@ data:extend({
                         shift = util.by_pixel(0 + 0.5, -11.5 + 0.5),
                         animation_speed = 8,
                         max_advance = 0.2,
-                        stripes =
-                        {
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-1.png",
-                                width_in_frames = 2,
-                                height_in_frames = 11,
-                            },
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-2.png",
-                                width_in_frames = 2,
-                                height_in_frames = 11,
-                            },
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-3.png",
-                                width_in_frames = 2,
-                                height_in_frames = 10,
-                            }
-                        },
                     }
                 },
                 {
@@ -140,24 +104,6 @@ data:extend({
                     line_length = 2,
                     shift = { 0, -0.171875 },
                     animation_speed = 8,
-                    stripes =
-                    {
-                        {
-                            filename = "__base__/graphics/entity/car/car-mask-1.png",
-                            width_in_frames = 1,
-                            height_in_frames = 22,
-                        },
-                        {
-                            filename = "__base__/graphics/entity/car/car-mask-2.png",
-                            width_in_frames = 1,
-                            height_in_frames = 22,
-                        },
-                        {
-                            filename = "__base__/graphics/entity/car/car-mask-3.png",
-                            width_in_frames = 1,
-                            height_in_frames = 20,
-                        }
-                    },
                     hr_version =
                     {
                         priority = "low",
@@ -170,24 +116,6 @@ data:extend({
                         line_length = 2,
                         shift = util.by_pixel(0 + 0.5, -11 + 0.5),
                         animation_speed = 8,
-                        stripes =
-                        {
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-mask-1.png",
-                                width_in_frames = 1,
-                                height_in_frames = 11,
-                            },
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-mask-2.png",
-                                width_in_frames = 1,
-                                height_in_frames = 11,
-                            },
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-mask-3.png",
-                                width_in_frames = 1,
-                                height_in_frames = 10,
-                            }
-                        },
                     }
                 },
                 {
@@ -200,24 +128,6 @@ data:extend({
                     shift = { 0, -0.1875 },
                     animation_speed = 8,
                     max_advance = 0.2,
-                    stripes =
-                    {
-                        {
-                            filename = "__base__/graphics/entity/car/car-shadow-1.png",
-                            width_in_frames = 2,
-                            height_in_frames = 22,
-                        },
-                        {
-                            filename = "__base__/graphics/entity/car/car-shadow-2.png",
-                            width_in_frames = 2,
-                            height_in_frames = 22,
-                        },
-                        {
-                            filename = "__base__/graphics/entity/car/car-shadow-3.png",
-                            width_in_frames = 2,
-                            height_in_frames = 20,
-                        }
-                    },
                     draw_as_shadow = true,
                     hr_version =
                     {
@@ -230,24 +140,6 @@ data:extend({
                         shift = util.by_pixel(28, 12.5),
                         animation_speed = 8,
                         max_advance = 0.2,
-                        stripes =
-                        {
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-shadow-1.png",
-                                width_in_frames = 2,
-                                height_in_frames = 11,
-                            },
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-shadow-2.png",
-                                width_in_frames = 2,
-                                height_in_frames = 11,
-                            },
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-shadow-3.png",
-                                width_in_frames = 2,
-                                height_in_frames = 10,
-                            }
-                        },
                         draw_as_shadow = true,
                     }
                 }
