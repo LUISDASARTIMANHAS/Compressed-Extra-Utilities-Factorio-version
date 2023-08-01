@@ -3,10 +3,10 @@ data:extend({
     {
         type = "car",
         name = "caminhao-de-carga-entidade",
-        icon = "__MeuModCaminhao__/graphics/icon.png",
+        icon = "__Compressed_Extra_Utilities__/graficos/items/caminhao_basculante.png",
         icon_size = 32,
         flags = { "placeable-neutral", "player-creation" },
-        minable = { mining_time = 1, result = "caminhao-de-carga" },
+        minable = { mining_time = 5, result = "caminhao-de-carga" },
         max_health = 200,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
