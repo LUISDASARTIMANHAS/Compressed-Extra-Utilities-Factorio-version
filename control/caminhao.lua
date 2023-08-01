@@ -136,7 +136,62 @@ data:extend({
         rotation_speed = 0.005,
         tank_driving = true,
         weight = 2000,
-        inventory_size = 80
+        inventory_size = 80,
+        animation = {
+            layers = {
+                {
+                    frame_count = 1,
+                    filename =  {
+                        {
+                            filename = "__base__/graphics/entity/car/car-1.png",
+                            width_in_frames = 2,
+                            height_in_frames = 22,
+                        },
+                        {
+                            filename = "__base__/graphics/entity/car/car-2.png",
+                            width_in_frames = 2,
+                            height_in_frames = 22,
+                        },
+                        {
+                            filename = "__base__/graphics/entity/car/car-3.png",
+                            width_in_frames = 2,
+                            height_in_frames = 20,
+                        }
+                    },
+                    hr_version = {
+                        frame_count = 1,
+                        filename = {
+                            {
+                                filename = "__base__/graphics/entity/car/hr-car-1.png",
+                                width_in_frames = 2,
+                                height_in_frames = 11,
+                            },
+                            {
+                                filename = "__base__/graphics/entity/car/hr-car-2.png",
+                                width_in_frames = 2,
+                                height_in_frames = 11,
+                            },
+                            {
+                                filename = "__base__/graphics/entity/car/hr-car-3.png",
+                                width_in_frames = 2,
+                                height_in_frames = 10,
+                            }
+                        },
+                        height = 128,
+                        line_length = 1,
+                        shift = { 0, 0.125 },
+                        scale = 0.5,
+                        priority = "high",
+                        width = 128
+                    },
+                    height = 128,
+                    line_length = 1,
+                    shift = { 0, 0.125 },
+                    priority = "high",
+                    width = 128
+                }
+            }
+        },
     }
 })
 
