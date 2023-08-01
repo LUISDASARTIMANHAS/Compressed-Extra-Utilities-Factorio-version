@@ -5,7 +5,7 @@ data:extend({
     {
         type = "car",
         name = "caminhao-de-carga-entidade",
-        icon = path_main.. "/graficos/items/caminhao_basculante.png",
+        icon = path_main .. "/graficos/items/caminhao_basculante.png",
         icon_size = 32,
         flags = { "placeable-neutral", "player-creation" },
         minable = { mining_time = 5, result = "caminhao-de-carga" },
@@ -14,8 +14,7 @@ data:extend({
         dying_explosion = "medium-explosion",
         energy_per_hit_point = 1,
         crash_trigger = crash_trigger(),
-        resistances =
-        {
+        resistances = {
             {
                 type = "fire",
                 percent = 50
@@ -30,8 +29,7 @@ data:extend({
         selection_box = { { -0.7, -0.7 }, { 0.7, 0.7 } },
         effectivity = 0.6,
         braking_power = "200kW",
-        burner =
-        {
+        burner = {
             effectivity = 0.75,
             fuel_inventory_size = 2,
             smoke =
@@ -50,8 +48,7 @@ data:extend({
         },
         consumption = "150kW",
         friction = 0.005,
-        light =
-        {
+        light = {
             {
                 type = "oriented",
                 minimum_darkness = 0.3,
@@ -70,16 +67,14 @@ data:extend({
                 color = { r = 0.92, g = 0.77, b = 0.3 }
             }
         },
-        sound_no_fuel =
-        {
+        sound_no_fuel ={
             {
                 filename = "__base__/sound/fight/car-no-fuel-1.ogg",
                 volume = 0.6
             }
         },
         stop_trigger_speed = 0.2,
-        stop_trigger =
-        {
+        stop_trigger ={
             {
                 type = "play-sound",
                 sound =
@@ -114,8 +109,7 @@ data:extend({
                 volume = 0.5
             }
         },
-        working_sound =
-        {
+        working_sound ={
             sound =
             {
                 filename = "__base__/sound/fight/car-engine.ogg",
@@ -198,32 +192,3 @@ data:extend({
         },
     }
 })
-
-
--- Adicione a seguinte lógica na função on_entity_gui_click do seu mod:
--- if event.element.name == "caminhao-de-carga-inventory" then
---     -- Verifica se o jogador está interagindo com o inventário do caminhão
---     local player = game.players[event.player_index]
---     local caminhao = event.entity
---     if caminhao.valid and caminhao.name == "caminhao-de-carga" then
---         player.opened = caminhao
---     end
--- end
-
--- Adicione a seguinte lógica na função on_tick do seu mod:
--- script.on_event(defines.events.on_tick, function(event)
---     for _, caminhao in pairs(game.surfaces[1].find_entities_filtered { type = "car" }) do
---         if caminhao.name == "caminhao-de-carga" then
---             local player = game.players[event.player_index]
---             local destination = player.selected -- A posição do cursor do jogador
---             if destination and destination.valid then
---                 local position = caminhao.position
---                 local direction = (destination.position - position).normalized
---                 caminhao.speed = 0.5 -- Velocidade do caminhão (pode ajustar conforme desejado)
---                 caminhao.orientation = direction
---             else
---                 caminhao.speed = 0
---             end
---         end
---     end
--- end)
