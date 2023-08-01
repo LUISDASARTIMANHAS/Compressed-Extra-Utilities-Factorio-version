@@ -137,56 +137,21 @@ data:extend({
             layers = {
                 {
                     frame_count = 1,
-                    filename = {
-                        {
-                            filename = "__base__/graphics/entity/car/car-1.png",
-                            width_in_frames = 2,
-                            height_in_frames = 22,
-                        },
-                        {
-                            filename = "__base__/graphics/entity/car/car-2.png",
-                            width_in_frames = 2,
-                            height_in_frames = 22,
-                        },
-                        {
-                            filename = "__base__/graphics/entity/car/car-3.png",
-                            width_in_frames = 2,
-                            height_in_frames = 20,
-                        }
-                    },
+                    filename = "__base__/graphics/entity/car/car-1.png", -- Caminho para o arquivo de imagem da animação
                     hr_version = {
                         frame_count = 1,
-                        filename = {
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-1.png",
-                                width_in_frames = 2,
-                                height_in_frames = 11,
-                            },
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-2.png",
-                                width_in_frames = 2,
-                                height_in_frames = 11,
-                            },
-                            {
-                                filename = "__base__/graphics/entity/car/hr-car-3.png",
-                                width_in_frames = 2,
-                                height_in_frames = 10,
-                            }
-                        },
-                        height = 128,
-                        line_length = 1,
-                        shift = { 0, 0.125 },
+                        filename = "__base__/graphics/entity/car/hr-car-1.png", -- Caminho para o arquivo de imagem em alta resolução (opcional)
                         scale = 0.5,
                         priority = "high",
                         width = 128,
+                        height = 128,
                         direction_count = 64,
                     },
                     height = 128,
-                    line_length = 1,
-                    shift = { 0, 0.125 },
-                    priority = "high",
                     width = 128,
                     direction_count = 64,
+                    shift = {0, 0.125},
+                    priority = "high"
                 }
             }
         },
