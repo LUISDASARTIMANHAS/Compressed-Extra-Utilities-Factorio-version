@@ -16,7 +16,7 @@ data:extend({
         collision_box = { { -2.5, -1 }, { 2.5, 1 } },
         selection_box = { { -2.5, -1 }, { 2.5, 1 } },
         rotation_speed = 0.005,
-        tank_driving = true,
+        tank_driving = false,
         weight = 8000,
         inventory_size = 160,
         effectivity = 0.6,
