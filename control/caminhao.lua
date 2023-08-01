@@ -67,14 +67,14 @@ data:extend({
                 color = { r = 0.92, g = 0.77, b = 0.3 }
             }
         },
-        sound_no_fuel ={
+        sound_no_fuel = {
             {
                 filename = "__base__/sound/fight/car-no-fuel-1.ogg",
                 volume = 0.6
             }
         },
         stop_trigger_speed = 0.2,
-        stop_trigger ={
+        stop_trigger = {
             {
                 type = "play-sound",
                 sound =
@@ -109,7 +109,7 @@ data:extend({
                 volume = 0.5
             }
         },
-        working_sound ={
+        working_sound = {
             sound =
             {
                 filename = "__base__/sound/car-engine.ogg",
@@ -136,22 +136,224 @@ data:extend({
         animation = {
             layers = {
                 {
-                    frame_count = 1,
-                    filename = "__base__/graphics/entity/car/car-1.png", -- Caminho para o arquivo de imagem da animação
-                    hr_version = {
-                        frame_count = 1,
-                        filename = "__base__/graphics/entity/car/hr-car-1.png", -- Caminho para o arquivo de imagem em alta resolução (opcional)
-                        scale = 0.5,
-                        priority = "high",
-                        width = 128,
-                        height = 128,
-                        direction_count = 64,
-                    },
-                    height = 128,
-                    width = 128,
                     direction_count = 64,
-                    shift = {0, 0.125},
-                    priority = "high"
+                    animation_speed = 8,
+                    stripes = {
+                        {
+                            height_in_frames = 22,
+                            width_in_frames = 2,
+                            filename = "__base__/graphics/entity/car/car-1.png"
+                        },
+                        {
+                            height_in_frames = 22,
+                            width_in_frames = 2,
+                            filename = "__base__/graphics/entity/car/car-2.png"
+                        },
+                        {
+                            height_in_frames = 20,
+                            width_in_frames = 2,
+                            filename = "__base__/graphics/entity/car/car-3.png"
+                        }
+                    },
+                    hr_version = {
+                        direction_count = 64,
+                        animation_speed = 8,
+                        stripes = {
+                            {
+                                height_in_frames = 11,
+                                width_in_frames = 2,
+                                filename = "__base__/graphics/entity/car/hr-car-1.png"
+                            },
+                            {
+                                height_in_frames = 11,
+                                width_in_frames = 2,
+                                filename = "__base__/graphics/entity/car/hr-car-2.png"
+                            },
+                            {
+                                height_in_frames = 11,
+                                width_in_frames = 2,
+                                filename = "__base__/graphics/entity/car/hr-car-3.png"
+                            },
+                            {
+                                height_in_frames = 11,
+                                width_in_frames = 2,
+                                filename = "__base__/graphics/entity/car/hr-car-4.png"
+                            },
+                            {
+                                height_in_frames = 11,
+                                width_in_frames = 2,
+                                filename = "__base__/graphics/entity/car/hr-car-5.png"
+                            },
+                            {
+                                height_in_frames = 9,
+                                width_in_frames = 2,
+                                filename = "__base__/graphics/entity/car/hr-car-6.png"
+                            }
+                        },
+                        scale = 0.5,
+                        max_advance = 0.2,
+                        width = 201,
+                        frame_count = 2,
+                        height = 172,
+                        shift = { 0.0625, -0.09375 },
+                        priority = "low"
+                    },
+                    max_advance = 0.2,
+                    width = 102,
+                    frame_count = 2,
+                    height = 86,
+                    shift = { 0, -0.1875 },
+                    priority = "low"
+                },
+                {
+                    direction_count = 64,
+                    stripes = {
+                        {
+                            height_in_frames = 22,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-mask-1.png"
+                        },
+                        {
+                            height_in_frames = 22,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-mask-1.png"
+                        },
+                        {
+                            height_in_frames = 22,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-mask-2.png"
+                        },
+                        {
+                            height_in_frames = 22,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-mask-2.png"
+                        },
+                        {
+                            height_in_frames = 20,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-mask-3.png"
+                        },
+                        {
+                            height_in_frames = 20,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-mask-3.png"
+                        }
+                    },
+                    hr_version = {
+                        direction_count = 64,
+                        stripes = {
+                            {
+                                height_in_frames = 13,
+                                width_in_frames = 1,
+                                filename = "__base__/graphics/entity/car/hr-car-mask-1.png"
+                            },
+                            {
+                                height_in_frames = 13,
+                                width_in_frames = 1,
+                                filename = "__base__/graphics/entity/car/hr-car-mask-1.png"
+                            },
+                            {
+                                height_in_frames = 13,
+                                width_in_frames = 1,
+                                filename = "__base__/graphics/entity/car/hr-car-mask-2.png"
+                            },
+                            {
+                                height_in_frames = 13,
+                                width_in_frames = 1,
+                                filename = "__base__/graphics/entity/car/hr-car-mask-2.png"
+                            },
+                            {
+                                height_in_frames = 13,
+                                width_in_frames = 1,
+                                filename = "__base__/graphics/entity/car/hr-car-mask-3.png"
+                            },
+                            {
+                                height_in_frames = 13,
+                                width_in_frames = 1,
+                                filename = "__base__/graphics/entity/car/hr-car-mask-3.png"
+                            },
+                            {
+                                height_in_frames = 13,
+                                width_in_frames = 1,
+                                filename = "__base__/graphics/entity/car/hr-car-mask-4.png"
+                            },
+                            {
+                                height_in_frames = 13,
+                                width_in_frames = 1,
+                                filename = "__base__/graphics/entity/car/hr-car-mask-4.png"
+                            },
+                            {
+                                height_in_frames = 12,
+                                width_in_frames = 1,
+                                filename = "__base__/graphics/entity/car/hr-car-mask-5.png"
+                            },
+                            {
+                                height_in_frames = 12,
+                                width_in_frames = 1,
+                                filename = "__base__/graphics/entity/car/hr-car-mask-5.png"
+                            }
+                        },
+                        scale = 0.5,
+                        max_advance = 0.2,
+                        line_length = 1,
+                        apply_runtime_tint = true,
+                        width = 199,
+                        axially_symmetrical = false,
+                        frame_count = 2,
+                        height = 147,
+                        shift = { 0.0625, -0.078125 },
+                        priority = "low"
+                    },
+                    max_advance = 0.2,
+                    line_length = 2,
+                    apply_runtime_tint = true,
+                    width = 100,
+                    frame_count = 2,
+                    height = 75,
+                    shift = { 0, -0.171875 },
+                    priority = "low"
+                },
+                {
+                    direction_count = 64,
+                    stripes = {
+                        {
+                            height_in_frames = 22,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-shadow-1.png"
+                        },
+                        {
+                            height_in_frames = 22,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-shadow-1.png"
+                        },
+                        {
+                            height_in_frames = 22,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-shadow-2.png"
+                        },
+                        {
+                            height_in_frames = 22,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-shadow-2.png"
+                        },
+                        {
+                            height_in_frames = 20,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-shadow-3.png"
+                        },
+                        {
+                            height_in_frames = 20,
+                            width_in_frames = 1,
+                            filename = "__base__/graphics/entity/car/car-shadow-3.png"
+                        }
+                    },
+                    max_advance = 0.2,
+                    width = 114,
+                    draw_as_shadow = true,
+                    frame_count = 2,
+                    height = 76,
+                    shift = { 0.28125, 0.25 },
+                    priority = "low"
                 }
             }
         },
