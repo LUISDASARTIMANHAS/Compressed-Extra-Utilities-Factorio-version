@@ -4,5 +4,5 @@ O mod Compressed Extra Utilities adiciona vários blocos de propósitos aleatór
 
 ## instruções
 Depois de baixar o arquivo renomeie ele para
-Applied-Energistics-2_0.4.0.zip
+Compressed_Extra_Utilities_0.1.4.zip
 para que possa ser executado.
