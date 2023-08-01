@@ -182,13 +182,15 @@ data:extend({
                         shift = { 0, 0.125 },
                         scale = 0.5,
                         priority = "high",
-                        width = 128
+                        width = 128,
+                        direction_count = 64,
                     },
                     height = 128,
                     line_length = 1,
                     shift = { 0, 0.125 },
                     priority = "high",
-                    width = 128
+                    width = 128,
+                    direction_count = 64,
                 }
             }
         },
