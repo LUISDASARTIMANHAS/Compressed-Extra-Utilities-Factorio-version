@@ -2,7 +2,7 @@
 data:extend({
     {
         type = "car",
-        name = "caminhao-de-carga",
+        name = "caminhao-de-carga-entidade",
         icon = "__MeuModCaminhao__/graphics/icon.png",
         icon_size = 32,
         flags = { "placeable-neutral", "player-creation" },
