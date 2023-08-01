@@ -186,7 +186,7 @@ data:extend({
     {
         type = "item",
         name = "caminhao-de-carga",
-        icon = path_main.. "/graficos/Blocos/caminhao.png",
+        icon = path_main.. "/graficos/items/caminhao_basculante.png",
         icon_size = 128,
         subgroup = "transport",
         order = "b[personal-transport]-c[caminhao-de-carga]",

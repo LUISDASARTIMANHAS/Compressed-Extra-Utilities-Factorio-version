@@ -1,9 +1,11 @@
 -- Criação da entidade do caminhão de carga
+local path_main = "__Compressed_Extra_Utilities__"
+
 data:extend({
     {
         type = "car",
         name = "caminhao-de-carga-entidade",
-        icon = "__Compressed_Extra_Utilities__/graficos/items/caminhao_basculante.png",
+        icon = path_main.. "/graficos/items/caminhao_basculante.png",
         icon_size = 32,
         flags = { "placeable-neutral", "player-creation" },
         minable = { mining_time = 5, result = "caminhao-de-carga" },
