@@ -327,29 +327,29 @@ data:extend({
 
 
 -- Adicione a seguinte lógica na função on_entity_gui_click do seu mod:
-if event.element.name == "caminhao-de-carga-inventory" then
-    -- Verifica se o jogador está interagindo com o inventário do caminhão
-    local player = game.players[event.player_index]
-    local caminhao = event.entity
-    if caminhao.valid and caminhao.name == "caminhao-de-carga" then
-        player.opened = caminhao
-    end
-end
+-- if event.element.name == "caminhao-de-carga-inventory" then
+--     -- Verifica se o jogador está interagindo com o inventário do caminhão
+--     local player = game.players[event.player_index]
+--     local caminhao = event.entity
+--     if caminhao.valid and caminhao.name == "caminhao-de-carga" then
+--         player.opened = caminhao
+--     end
+-- end
 
 -- Adicione a seguinte lógica na função on_tick do seu mod:
-script.on_event(defines.events.on_tick, function(event)
-    for _, caminhao in pairs(game.surfaces[1].find_entities_filtered { type = "car" }) do
-        if caminhao.name == "caminhao-de-carga" then
-            local player = game.players[event.player_index]
-            local destination = player.selected -- A posição do cursor do jogador
-            if destination and destination.valid then
-                local position = caminhao.position
-                local direction = (destination.position - position).normalized
-                caminhao.speed = 0.5 -- Velocidade do caminhão (pode ajustar conforme desejado)
-                caminhao.orientation = direction
-            else
-                caminhao.speed = 0
-            end
-        end
-    end
-end)
+-- script.on_event(defines.events.on_tick, function(event)
+--     for _, caminhao in pairs(game.surfaces[1].find_entities_filtered { type = "car" }) do
+--         if caminhao.name == "caminhao-de-carga" then
+--             local player = game.players[event.player_index]
+--             local destination = player.selected -- A posição do cursor do jogador
+--             if destination and destination.valid then
+--                 local position = caminhao.position
+--                 local direction = (destination.position - position).normalized
+--                 caminhao.speed = 0.5 -- Velocidade do caminhão (pode ajustar conforme desejado)
+--                 caminhao.orientation = direction
+--             else
+--                 caminhao.speed = 0
+--             end
+--         end
+--     end
+-- end)
