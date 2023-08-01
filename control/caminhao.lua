@@ -7,13 +7,27 @@ data:extend({
         name = "caminhao-de-carga-entidade",
         icon = path_main .. "/graficos/items/caminhao_basculante.png",
         icon_size = 32,
-        flags = { "placeable-neutral", "player-creation" },
         minable = { mining_time = 5, result = "caminhao-de-carga" },
         max_health = 200,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         energy_per_hit_point = 1,
         crash_trigger = crash_trigger(),
+        collision_box = { { -1.0, -1.5 }, { 1.0, 1.5 } },
+        selection_box = { { -0.8, -1.5 }, { 0.8, 1.5 } },
+        rotation_speed = 0.005,
+        tank_driving = true,
+        weight = 2000,
+        inventory_size = 80,
+        effectivity = 0.6,
+        braking_power = "200kW",
+        consumption = "150kW",
+        friction = 0.005,
+        stop_trigger_speed = 0.2,
+        sound_minimum_speed = 0.2,
+        open_sound = { filename = "__base__/sound/car-door-open.ogg", volume = 0.7 },
+        close_sound = { filename = "__base__/sound/car-door-close.ogg", volume = 0.7 },
+        sound_no_fuel = { filename = "__base__/sound/fight/car-no-fuel-1.ogg", volume = 0.6 },
         resistances = {
             {
                 type = "fire",
@@ -25,10 +39,6 @@ data:extend({
                 decrease = 50
             }
         },
-        collision_box = { { -1.0, -1.5 }, { 1.0, 1.5 } },
-        selection_box = { { -0.8, -1.5 }, { 0.8, 1.5 } },
-        effectivity = 0.6,
-        braking_power = "200kW",
         burner = {
             effectivity = 0.75,
             fuel_inventory_size = 2,
@@ -46,8 +56,6 @@ data:extend({
                 }
             }
         },
-        consumption = "150kW",
-        friction = 0.005,
         light = {
             {
                 type = "oriented",
@@ -67,13 +75,6 @@ data:extend({
                 color = { r = 0.92, g = 0.77, b = 0.3 }
             }
         },
-        sound_no_fuel = {
-            {
-                filename = "__base__/sound/fight/car-no-fuel-1.ogg",
-                volume = 0.6
-            }
-        },
-        stop_trigger_speed = 0.2,
         stop_trigger = {
             {
                 type = "play-sound",
@@ -86,7 +87,6 @@ data:extend({
                 }
             },
         },
-        sound_minimum_speed = 0.2,
         vehicle_impact_sound = {
             {
                 filename = "__base__/sound/car-metal-impact-2.ogg",
@@ -127,12 +127,12 @@ data:extend({
             },
             match_speed_to_activity = true,
         },
-        open_sound = { filename = "__base__/sound/car-door-open.ogg", volume = 0.7 },
-        close_sound = { filename = "__base__/sound/car-door-close.ogg", volume = 0.7 },
-        rotation_speed = 0.005,
-        tank_driving = true,
-        weight = 2000,
-        inventory_size = 80,
+        flags = {
+            "placeable-neutral",
+            "player-creation",
+            "placeable-off-grid",
+            "not-flammable"
+        },
         animation = {
             layers = {
                 {
