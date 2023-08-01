@@ -7,64 +7,64 @@ data:extend({
     -- category = "centrifuging" feito na centrifuge
 
     {
-    type = "recipe",
-    name = "compressed-madeira-recipe",
-    enabled = true,
-    category = "advanced-crafting",
-    always_show_madein = true,
-    ingredients = {
-    {"wood",9}
-    },
-    energy_required = 10,
-    result = "compressed-madeira",
-    },
-    {
-    type = "recipe",
-    name = "compressed-carvao-recipe",
-    enabled = true,
-    category = "advanced-crafting",
-    always_show_madein = true,
-    ingredients = {
-    {"coal",9}
-    },
-    energy_required = 10,
-    result = "compressed-carvao",
+        type = "recipe",
+        name = "compressed-madeira-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "wood", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-madeira",
     },
     {
-    type = "recipe",
-    name = "compressed-pedra-recipe",
-    enabled = true,
-    category = "advanced-crafting",
-    always_show_madein = true,
-    ingredients = {
-    {"stone",9}
-    },
-    energy_required = 10,
-    result = "compressed-pedra",
-    },
-    {
-    type = "recipe",
-    name = "compressed-minerio-de-ferro-recipe",
-    enabled = true,
-    category = "advanced-crafting",
-    always_show_madein = true,
-    ingredients = {
-    {"iron-ore",9}
-    },
-    energy_required = 10,
-    result = "compressed-minerio-de-ferro",
+        type = "recipe",
+        name = "compressed-carvao-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "coal", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-carvao",
     },
     {
-    type = "recipe",
-    name = "compressed-minerio-de-cobre-recipe",
-    enabled = true,
-    category = "advanced-crafting",
-    always_show_madein = true,
-    ingredients = {
-    {"copper-ore",9}
+        type = "recipe",
+        name = "compressed-pedra-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "stone", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-pedra",
     },
-    energy_required = 10,
-    result = "compressed-minerio-de-cobre",
+    {
+        type = "recipe",
+        name = "compressed-minerio-de-ferro-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "iron-ore", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-minerio-de-ferro",
+    },
+    {
+        type = "recipe",
+        name = "compressed-minerio-de-cobre-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "copper-ore", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-minerio-de-cobre",
     },
     {
         type = "recipe",
@@ -73,9 +73,21 @@ data:extend({
         category = "centrifuging",
         always_show_madein = true,
         ingredients = {
-        {"uranium-ore",9}
+            { "uranium-ore", 9 }
         },
         energy_required = 10,
         result = "compressed-minerio-de-uranio",
+    },
+    {
+        type = "recipe",
+        name = "alternative-coal-recipe",
+        enabled = true,
+        category = "smelting",
+        always_show_madein = true,
+        ingredients = {
+            { "wood", 2 }
         },
+        energy_required = 3,
+        result = "coal",
+    },
 })
