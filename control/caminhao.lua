@@ -275,7 +275,28 @@ data:extend({
             },
         },
         sound_minimum_speed = 0.2,
-        vehicle_impact_sound = sounds.generic_impact,
+        vehicle_impact_sound = {
+            {
+                filename = "__base__/sound/car-metal-impact-2.ogg",
+                volume = 0.5
+            },
+            {
+                filename = "__base__/sound/car-metal-impact-3.ogg",
+                volume = 0.5
+            },
+            {
+                filename = "__base__/sound/car-metal-impact-4.ogg",
+                volume = 0.5
+            },
+            {
+                filename = "__base__/sound/car-metal-impact-5.ogg",
+                volume = 0.5
+            },
+            {
+                filename = "__base__/sound/car-metal-impact-6.ogg",
+                volume = 0.5
+            }
+        },
         working_sound =
         {
             sound =
