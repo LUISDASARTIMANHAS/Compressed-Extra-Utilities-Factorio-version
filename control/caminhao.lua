@@ -112,17 +112,17 @@ data:extend({
         working_sound ={
             sound =
             {
-                filename = "__base__/sound/fight/car-engine.ogg",
+                filename = "__base__/sound/car-engine.ogg",
                 volume = 0.6
             },
             activate_sound =
             {
-                filename = "__base__/sound/fight/car-engine-start.ogg",
+                filename = "__base__/sound/car-engine-start.ogg",
                 volume = 0.6
             },
             deactivate_sound =
             {
-                filename = "__base__/sound/fight/car-engine-stop.ogg",
+                filename = "__base__/sound/car-engine-stop.ogg",
                 volume = 0.6
             },
             match_speed_to_activity = true,
