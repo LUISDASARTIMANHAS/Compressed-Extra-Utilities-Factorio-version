@@ -25,8 +25,8 @@ data:extend({
                 decrease = 50
             }
         },
-        collision_box = { { -0.7, -0.7 }, { 0.7, 0.7 } },
-        selection_box = { { -0.7, -0.7 }, { 0.7, 0.7 } },
+        collision_box = { { -1.0, -1.5 }, { 1.0, 1.5 } },
+        selection_box = { { -0.8, -1.5 }, { 0.8, 1.5 } },
         effectivity = 0.6,
         braking_power = "200kW",
         burner = {
