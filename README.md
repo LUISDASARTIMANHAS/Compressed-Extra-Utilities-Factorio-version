@@ -9,7 +9,7 @@ para que possa ser executado.
 
 |                                  | Em desinvolvimento   | "Versão Estavel"  |
 |----------------------------------|----------------------|-------------------|
-|                        **Versão**|               0.1.5  |              0.1.4|
+|                        **Versão**|               0.1.6  |              0.1.5|
 | **Atualização Auto Via factorio**|                  :x: |               :x: |
 |                       **Discord**|   :heavy_check_mark: |               :x: |
 |              **Reporte de Erros**|   :heavy_check_mark: |               :x: |
