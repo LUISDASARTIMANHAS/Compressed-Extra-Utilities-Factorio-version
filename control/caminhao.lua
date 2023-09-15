@@ -357,7 +357,7 @@ data:extend({
                         }
                     },
                     max_advance = 0.2,
-                    width = 201,
+                    width = 114,
                     draw_as_shadow = true,
                     frame_count = 2,
                     height = 76,
