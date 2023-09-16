@@ -144,7 +144,7 @@ data:extend({
         animation = {
             layers = {
                 {
-                    filename = path_main .. "/graficos/items/Jeep3D_1024x512.png",
+                    filename = path_main .. "/graficos/items/Jeep3D_512x1024.png",
                     direction_count = 8,
                     animation_speed = 8,
                     max_advance = 0.2,
