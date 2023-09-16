@@ -1,6 +1,5 @@
 -- Criação da entidade do caminhão de carga
 local path_main = "__Compressed_Extra_Utilities__"
-local path_jeep = path_main .. "/graficos/items/Jeep3D_512.png"
 
 data:extend({
     {
@@ -145,12 +144,12 @@ data:extend({
         animation = {
             layers = {
                 {
-                    filename = path_jeep,
+                    filename = path_main .. "/graficos/items/Jeep3D_1024x512.png",
                     direction_count = 8,
                     animation_speed = 8,
                     max_advance = 0.2,
-                    width = 1024,
                     frame_count = 8,
+                    width = 1024,
                     height = 512,
                     shift = { 0, -0.1875 },
                     priority = "low"
