@@ -44,6 +44,90 @@ data:extend({
     },
     {
         type = "recipe",
+        name = "compressed-pedra-double-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "compressed-pedra", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-pedra-double",
+    },
+    {
+        type = "recipe",
+        name = "compressed-pedra-triple-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "compressed-pedra-double", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-pedra-triple",
+    },
+    {
+        type = "recipe",
+        name = "compressed-pedra-quadruple-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "compressed-pedra-triple", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-pedra-quadruple",
+    },
+    {
+        type = "recipe",
+        name = "compressed-pedra-quintuple-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "compressed-pedra-quadruple", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-pedra-quintuple",
+    },
+    {
+        type = "recipe",
+        name = "compressed-pedra-sextuple-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "compressed-pedra-quintuple", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-pedra-sextuple",
+    },
+    {
+        type = "recipe",
+        name = "compressed-pedra-septuple-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "compressed-pedra-sextuple", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-pedra-septuple",
+    },
+    {
+        type = "recipe",
+        name = "compressed-pedra-octuple-recipe",
+        enabled = true,
+        category = "advanced-crafting",
+        always_show_madein = true,
+        ingredients = {
+            { "compressed-pedra-septuple", 9 }
+        },
+        energy_required = 10,
+        result = "compressed-pedra-octuple",
+    },
+    {
+        type = "recipe",
         name = "compressed-minerio-de-ferro-recipe",
         enabled = true,
         category = "advanced-crafting",
