@@ -11,5 +11,5 @@ require("graficos/style.lua")
 require("data/compressed_grupos.lua")
 
 -- scripts e entidades
-require("control/caminhao.lua")
+-- require("control/caminhao.lua")
 -- require("control/cordenadas.lua")

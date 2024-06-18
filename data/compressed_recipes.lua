@@ -91,19 +91,19 @@ data:extend({
         energy_required = 10,
         result = "compressed-bateria",
     },
-    {
-        type = "recipe",
-        name = "caminhao-de-carga-recipe",
-        enabled = true,
-        category = "advanced-crafting",
-        always_show_madein = true,
-        ingredients =
-        {
-            { "iron-plate",  200 },
-            { "engine-unit", 64 },
-            { "steel-plate", 125 }
-        },
-        energy_required = 60,
-        result = "caminhao-de-carga"
-    }
+    -- {
+    --     type = "recipe",
+    --     name = "caminhao-de-carga-recipe",
+    --     enabled = true,
+    --     category = "advanced-crafting",
+    --     always_show_madein = true,
+    --     ingredients =
+    --     {
+    --         { "iron-plate",  200 },
+    --         { "engine-unit", 64 },
+    --         { "steel-plate", 125 }
+    --     },
+    --     energy_required = 60,
+    --     result = "caminhao-de-carga"
+    -- }
 })

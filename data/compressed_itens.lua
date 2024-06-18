@@ -246,15 +246,15 @@ data:extend({
         order = "compressed-raw[200reais]",
         stack_size = 10,
     },
-    {
-        type = "item",
-        name = "caminhao-de-carga",
-        icon = path_main.. "/graficos/items/caminhao_basculante.png",
-        icon_size = 128,
-        subgroup = "transport",
-        order = "b[personal-transport]-c[caminhao-de-carga]",
-        place_result = "caminhao-de-carga-entidade",
-        stack_size = 1
-      }
+    -- {
+    --     type = "item",
+    --     name = "caminhao-de-carga",
+    --     icon = path_main.. "/graficos/items/caminhao_basculante.png",
+    --     icon_size = 128,
+    --     subgroup = "transport",
+    --     order = "b[personal-transport]-c[caminhao-de-carga]",
+    --     place_result = "caminhao-de-carga-entidade",
+    --     stack_size = 1
+    --   }
 })
 
