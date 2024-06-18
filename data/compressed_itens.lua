@@ -37,7 +37,7 @@ data:extend({
     {
         type = "item",
         name = "compressed-pedra-double",
-        icon = path_main.. "/graficos/items/compressed_pedra_Double.png",
+        icon = path_main.. "/graficos/items/compressed_pedra_double.png",
         icon_size = 128,
         subgroup = "recursos",
         order = "compressed-raw[compressed-pedra-double]",
