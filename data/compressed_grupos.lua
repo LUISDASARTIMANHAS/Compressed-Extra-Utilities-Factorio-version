@@ -46,3 +46,10 @@ data:extend(
 }
 )
 -------------------------------------------------------------------------- compressed-category
+-- categorias de receitas
+data:extend({
+  {
+      type = "recipe-category",
+      name = "compactor"
+  }
+})

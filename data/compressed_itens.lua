@@ -5,6 +5,26 @@ data:extend({
     -- items brutos
     {
         type = "item",
+        name = "crusher-tier-1",
+        icon = path_main.. "/graficos/items/crusher.png",
+        icon_size = 128,
+        subgroup = "recursos",
+        order = "compressed-itens[crusher-tier-1]",
+        place_result = "crusher-tier-1-entidade",
+        stack_size = 1,
+    },
+    {
+        type = "item",
+        name = "crusher-tier-2",
+        icon = path_main.. "/graficos/items/hydraulic_cone_crusher.png",
+        icon_size = 128,
+        subgroup = "recursos",
+        order = "compressed-itens[crusher-tier-2]",
+        place_result = "crusher-tier-2-entidade",
+        stack_size = 1,
+    },
+    {
+        type = "item",
         name = "compressed-madeira",
         icon = path_main.. "/graficos/items/compressed_madeira.png",
         icon_size = 128,

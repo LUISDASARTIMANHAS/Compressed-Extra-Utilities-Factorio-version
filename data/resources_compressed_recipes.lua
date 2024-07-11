@@ -5,11 +5,12 @@ data:extend({
     -- category = "crafting" feito a mão
     -- category = "smelting" feito em fornalhas
     -- category = "centrifuging" feito na centrifuge
+        -- category = "compactor"
 
     {
         type = "recipe",
         name = "compressed-madeira-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -21,7 +22,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-carvao-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -33,7 +34,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-pedra-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -45,7 +46,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-pedra-double-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -57,7 +58,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-pedra-triple-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -69,7 +70,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-pedra-quadruple-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -81,7 +82,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-pedra-quintuple-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -93,7 +94,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-pedra-sextuple-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -105,7 +106,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-pedra-septuple-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -117,7 +118,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-pedra-octuple-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -129,7 +130,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-minerio-de-ferro-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -141,7 +142,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-minerio-de-cobre-recipe",
-        enabled = true,
+        enabled = false,
         category = "advanced-crafting",
         always_show_madein = true,
         ingredients = {
@@ -153,7 +154,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-minerio-de-uranio-recipe",
-        enabled = true,
+        enabled = false,
         category = "centrifuging",
         always_show_madein = true,
         ingredients = {
@@ -165,7 +166,7 @@ data:extend({
     {
         type = "recipe",
         name = "alternative-coal-recipe",
-        enabled = true,
+        enabled = false,
         category = "smelting",
         always_show_madein = true,
         ingredients = {
