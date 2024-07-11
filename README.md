@@ -10,7 +10,7 @@ para que possa ser executado.
 
 |                                  | Em desinvolvimento   | "Versão Estavel"  |
 |----------------------------------|----------------------|-------------------|
-|                        **Versão**|               0.1.10  |              0.1.9|
+|                        **Versão**|               0.1.10 |              0.1.9|
 | **Atualização Auto Via factorio**|                  :x: |:heavy_check_mark: |
 |                       **Discord**|   :heavy_check_mark: |               :x: |
 |              **Reporte de Erros**|   :heavy_check_mark: |               :x: |
