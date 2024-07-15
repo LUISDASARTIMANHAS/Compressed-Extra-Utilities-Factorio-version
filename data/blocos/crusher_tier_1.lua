@@ -13,7 +13,7 @@ data:extend({
         },
         max_health = 650,
         crafting_speed = 10,
-        ingredient_count = 3,
+        ingredient_count = 5,
         off_when_no_fluid_recipe = true,
         energy_usage = "1MW",
         buffer_capacity = "100MW",
@@ -26,16 +26,16 @@ data:extend({
         dying_explosion = "assembling-machine-2-explosion",
         alert_icon_shift = { -0.09375, -0.375 },
         collision_box = {
-            { -1.2, -1.2 },
-            { 1.2,  1.2 }
+            { -5.2, -5.2 },
+            { 5.2,  5.2 }
         },
         selection_box = {
-            { -1.5, -1.5 },
-            { 1.5,  1.5 }
+            { -5.5, -5.5 },
+            { 5.5,  5.5 }
         },
         drawing_box = {
-            { -1.5, -1.5 },
-            { 1.5,  1.5 }
+            { -5.5, -5.5 },
+            { 5.5,  5.5 }
         },
         energy_source = {
             emissions_per_minute = 10,
@@ -112,12 +112,12 @@ data:extend({
                     hr_version = {
                         frame_count = 1,
                         filename = path_main .. "graficos/blocos/crusher.png",
-                        height = 128,
+                        height = 1080,
                         line_length = 1,
                         shift = { 0, 0.125 },
                         scale = 0.5,
                         priority = "high",
-                        width = 128
+                        width = 1920
                     },
                     height = 128,
                     line_length = 1,

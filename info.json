@@ -1,15 +1,17 @@
 {
     "name": "Compressed_Extra_Utilities",
-    "version": "0.1.10",
-    "title": "Compressed Extra Utilities",
+    "title": "Compressed Extra Utilities (EXPERIMENTAL BUILD)",
     "author": "LUIS DAS ARTIMANHAS",
-    "contact": "luisaugustodesouza785@gmail.com",
-    "homepage": "https://github.com/LUISDASARTIMANHAS/Compressed-Extra-Utilities-Factorio-version/",
-    "description": "Mod que importa as mecanicas do Compressed Extra Utilities, inspirado (mas não afiliado ao mod Minecraft Extra Utilities).",
+    "version": "0.1.10",
     "factorio_version": "1.1",
     "dependencies": [
         "base >= 1.1.100",
         "stdlib",
         "flib"
-    ]
+    ],
+    "description": "Mod que importa as mecanicas do Compressed Extra Utilities, inspirado (mas não afiliado ao mod Minecraft Extra Utilities).",
+    "homepage": "https://github.com/LUISDASARTIMANHAS/Compressed-Extra-Utilities-Factorio-version/",
+    "contact": "luisaugustodesouza785@gmail.com",
+    "license": "GNU General Public License v3.0",
+    "thumbnail":"thumbnail.png"
 }

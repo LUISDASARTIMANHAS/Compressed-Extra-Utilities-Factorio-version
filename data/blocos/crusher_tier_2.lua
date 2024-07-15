@@ -113,12 +113,12 @@ data:extend({
                     hr_version = {
                         frame_count = 1,
                         filename = path_main .. "graficos/blocos/hydraulic_cone_crusher.png",
-                        height = 128,
+                        height = 1080,
                         line_length = 1,
                         shift = { 0, 0.125 },
                         scale = 0.5,
                         priority = "high",
-                        width = 128
+                        width = 1920
                     },
                     height = 128,
                     line_length = 1,
